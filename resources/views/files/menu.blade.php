@@ -1,4 +1,4 @@
-<body data-home-page="https://taras.botsu.su/Головна.html?version=41cd0859-0dc3-4517-88ac-692d85b8743b" data-home-page-title="Головна" class="u-body u-xl-mode">
+<body data-home-page="https://taras.botsu.su/Головна.html?version=41cd0859-0dc3-4517-88ac-692d85b8743b" data-home-page-title="#" class="u-body u-xl-mode">
     <header class="u-clearfix u-header u-palette-1-dark-3 u-header" id="sec-6007">
         <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
             <a href="/" class="u-image u-logo u-image-1">
@@ -23,9 +23,9 @@
                     <ul class="u-nav u-unstyled u-nav-1">
                         <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/index" style="padding: 10px 20px;">Головна</a>
                         </li>
-                        <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/about" style="padding: 10px 20px;">Про мене</a>
+                        <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/about" style="padding: 10px 20px;">Контакти та данні</a>
                         </li>
-                        <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/contacts" style="padding: 10px 20px;">Контакты</a>
+                        <li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="/portfolio" style="padding: 10px 20px;">Портфоліо</a>
                         </li>
                     </ul>
                 </div>
@@ -38,7 +38,7 @@
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/about" style="padding: 10px 20px;">Про мене</a>
                                 </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/contacts" style="padding: 10px 20px;">Контакты</a>
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/contacts" style="padding: 10px 20px;">Контакти</a>
                                 </li>
                             </ul>
                         </div>

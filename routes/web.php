@@ -18,9 +18,13 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [Controller::class, 'index'])->name('index');
 Route::get('/index', [Controller::class, 'index'])->name('index');
+Route::get('/about', [Controller::class, 'about'])->name('about');
+Route::get('/portfolio', [Controller::class, 'portfolio'])->name('portfolio');
 
 
 /*
+Route::get('/pi', [Controller::class, 'pi'])->name('pi');
+
 Route::get('/pi', [Controller::class, 'pi'])->name('pi');
 Route::get('/deluser', [Controller::class, 'deluser'])->name('deluser');
 Route::get('/all_users', [Controller::class, 'all_users'])->name('deluser');
