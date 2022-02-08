@@ -1,12 +1,12 @@
-<body class="u-body u-xl-mode">
-    <header class="u-clearfix u-grey-90 u-header u-sticky-7d06 u-header" id="sec-ab9d">
+<body class="u-body u-xxl-mode">
+    <header class="u-clearfix u-grey-90 u-header u-header" id="sec-ab9d">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <a href="/" class="u-image u-logo u-image-1" data-image-width="152" data-image-height="134">
+            <a href="https://nicepage.com" class="u-align-left-xs u-image u-logo u-image-1" data-image-width="152" data-image-height="134">
                 <img src="/images/Untitled-2.png" class="u-logo-image u-logo-image-1">
             </a>
-            <nav class="u-align-left u-menu u-menu-dropdown u-nav-spacing-25 u-offcanvas u-menu-1" data-responsive-from="MD">
+            <nav class="u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-align-left-xxl u-align-right-xs u-menu u-menu-dropdown u-nav-spacing-25 u-offcanvas u-menu-1" data-responsive-from="MD">
                 <div class="menu-collapse u-custom-font u-font-raleway" style="font-size: 1.125rem; letter-spacing: 0px;">
-                    <a class="u-button-style u-custom-border u-custom-border-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link" href="#" style="padding: 4px 0px; font-size: calc(1em + 8px);">
+                    <a class="u-button-style u-custom-border u-custom-border-color u-custom-color u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-text-color u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link" href="#" style="padding: 4px 0px; font-size: calc(1em + 8px);">
                         <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 302 302" style="">
                             <use xlink:href="#svg-7b92"></use>
                         </svg>
@@ -16,7 +16,21 @@
                                 <rect y="236" width="302" height="30"></rect>
                                 <rect y="136" width="302" height="30"></rect>
                             </g>
-
+                            <g></g>
+                            <g></g>
+                            <g></g>
+                            <g></g>
+                            <g></g>
+                            <g></g>
+                            <g></g>
+                            <g></g>
+                            <g></g>
+                            <g></g>
+                            <g></g>
+                            <g></g>
+                            <g></g>
+                            <g></g>
+                            <g></g>
                         </svg>
                     </a>
                 </div>
@@ -41,8 +55,10 @@
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/admin" style="padding: 10px;">Адмін-панель</a>
                                 </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/admin/logout" style="padding: 10px;">Вихід</a>
-                                </li>
+                                <?php if (session('is_auth')) : ?>
+                                    <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/admin/logout" style="padding: 10px;">Вихід</a>
+                                    </li>
+                                <?php endif; ?>
                             </ul>
                         </div>
                     </div>
