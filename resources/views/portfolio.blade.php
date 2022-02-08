@@ -12,7 +12,7 @@
         <!--div class="u-border-6 u-border-grey-dark-1 u-line u-line-horizontal u-line-1"></!div-->
 
         <span class="u-icon u-icon-circle u-text-palette-1-base u-icon-1">
-            <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+            <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512">
                 <use xlink:href="#svg-1135"></use>
             </svg>
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-1135" style="enable-background:new 0 0 512 512;">
@@ -79,7 +79,7 @@
                         </div>
                     </div>
                     <!--product_image-->
-                    <img src="/storage/botsu-su.png" alt="" class="u-image u-image-default u-product-control u-image-1" data-image-width="1000" data-image-height="1500">
+                    <img src="/images/{{ $portfolio->image }}" alt="" class="u-image u-image-default u-product-control u-image-1" data-image-width="1000" data-image-height="1500">
                     <!--/product_image-->
                 </div>
             </div>
