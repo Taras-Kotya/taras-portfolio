@@ -1,12 +1,15 @@
-    <footer class="u-align-center u-clearfix u-footer u-grey-90 u-footer" id="sec-dc07">
+    <footer class="u-footer u-grey-90" id="sec-0f65" style="max-height: 150px">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <p class="u-small-text u-text u-text-variant u-text-1">
-                &copy; Taras Shpytko 
-                
-                <br> 2021 - <?= date('Y') ?>
+            <div class="u-align-left u-social-icons u-spacing-11 u-social-icons-1">
+                <a class="" title="facebook" target="_blank" href=""><span class="u-file-icon u-icon u-social-facebook u-social-icon u-icon-2"><img src="/images/906377.png" alt=""></span>
+                </a>
+                <a class="" title="instagram" target="_blank" href=""><span class="u-file-icon u-icon u-social-icon u-social-instagram u-icon-2"><img src="/images/1409946.png" alt=""></span>
+                </a>
+            </div>
+            <p class="u-align-center" style="margin-top: 10px"> © Taras Shpytko<br>2021 - <?= date('Y') ?>
             </p>
         </div>
     </footer>
+    </body>
 
-</body>
-</html>
+    </html>

@@ -828,14 +828,13 @@
 }
 
 .u-section-5 .u-social-icons-1 {
-  height: 24px;
   min-height: 16px;
   width: 125px;
   min-width: 94px;
   margin: 20px auto 0 0;
 }
 
-.u-section-5 .u-icon-4 {
+.u-section-5 .u-icon-1 {
   height: 100%;
 }
 
@@ -954,7 +953,9 @@
   }
 
   .u-section-5 .u-social-icons-1 {
-    width: 126px;
+    height: 24px;
+    width: 59px;
+    min-width: 43px;
   }
 
   .u-section-5 .u-list-1 {

@@ -33,14 +33,14 @@
                 <p class="u-custom-font u-text u-text-15">{{ $contacts->hobby }}</p>
                 <h6 class="u-custom-font u-font-open-sans u-text u-text-default u-text-16">Social</h6>
                 <div class="u-social-icons u-spacing-10 u-social-icons-1">
-                    <a class="u-social-url" title="facebook" target="_blank" href="https://facebook.com/name"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-white"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                    <a class="u-social-url" title="facebook" target="_blank" href="https://facebook.com/name"><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-white"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
                                 <use xlink:href="#svg-4113"></use>
                             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-4113">
                                 <path fill="currentColor" d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2
 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path>
                             </svg></span>
                     </a>
-                    <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/name"><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-white"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                    <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/name"><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-white"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
                                 <use xlink:href="#svg-3c2e"></use>
                             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-3c2e">
                                 <path fill="currentColor" d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2
@@ -50,7 +50,7 @@ c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path>
 	c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path>
                             </svg></span>
                     </a>
-                    <a class="u-social-url" title="instagram" target="_blank" href="https://instagram.com/name"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-white"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+                    <a class="u-social-url" title="instagram" target="_blank" href="https://instagram.com/name"><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-white"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
                                 <use xlink:href="#svg-a922"></use>
                             </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-a922">
                                 <path fill="currentColor" d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z
@@ -61,7 +61,7 @@ c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path>
 	c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path>
                             </svg></span>
                     </a>
-                    <a class="u-social-url" target="_blank" data-type="Custom" title="Custom" href=""><span class="u-icon u-icon-circle u-social-custom u-social-icon u-text-white u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                    <a class="u-social-url" target="_blank" data-type="Custom" title="Custom" href=""><span class="u-icon u-icon-circle u-social-custom u-social-icon u-text-white u-icon-4"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512">
                                 <use xlink:href="#svg-a7cd"></use>
                             </svg><svg class="u-svg-content" viewBox="0 0 512 512" x="0px" y="0px" id="svg-a7cd" style="enable-background:new 0 0 512 512;">
                                 <g>
