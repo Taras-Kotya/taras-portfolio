@@ -59,7 +59,7 @@ class AdminController extends Controller
 
     public function redSite_post(Request $request)
     {
-        $site = Site::find(1);
+        $site = Site::first();;
         $input = $request->all();
         $site->fill($input)->save();
         return back()->with('message', 'Успішно відредаговано');

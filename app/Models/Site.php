@@ -19,7 +19,8 @@ class Site extends Model
         'photo1',
         'photo2',
         'specialty',
-        'portfolio_content'
+        'portfolio_content',
+        'portfolio_view'
     ];
 }
 

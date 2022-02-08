@@ -43,5 +43,9 @@
     <br> <textarea name="portfolio_content" id="" cols="30" rows="10">{{ $site->portfolio_content }}</textarea>
 </p>
 
+<p>
+    <b>Портфоліо (запрошення):</b>
+    <br> <input type="text" name="portfolio_view" value="{{ $site->portfolio_view }}" />
+</p>
 
 @csrf

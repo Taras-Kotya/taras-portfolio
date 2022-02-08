@@ -18,8 +18,7 @@ class Controller extends BaseController
 
     public function index()
     {
-        $site = Site::orderBy('id', 'desc')
-        ->first();
+        $site = Site::first();
         
         return view('index', compact('site'));
     }

@@ -24,6 +24,7 @@ class CreateSitesTable extends Migration
             $table->string('photo2');
             $table->string('specialty');
             $table->string('portfolio_content');
+            $table->string('portfolio_view');
             $table->timestamps();
         });
     }

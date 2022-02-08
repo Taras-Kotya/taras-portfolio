@@ -23,7 +23,8 @@ class SiteSeeder extends Seeder
             'photo_back'        => 'Screenshotfrom2022-02-0502-44-25.png',
             'photo1'            => 'photo_2022-02-07_10-23-56.jpg',
             'photo2'            => 'photo_2022-02-07_10-23-59.jpg',
-            'portfolio_content' => 'Нумо тепер поглянемо на мої роботи'
+            'portfolio_content' => 'Нумо тепер поглянемо на мої роботи',
+            'portfolio_view'    => 'дивитись портфоліо'
         ]);
     }
 }
