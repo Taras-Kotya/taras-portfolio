@@ -16,8 +16,14 @@ class CreateSitesTable extends Migration
         Schema::create('sites', function (Blueprint $table) {
             $table->id();
             $table->string('title');
+            $table->string('title_user');
             $table->text('welcome_content');
+            $table->string('photo_colo');
+            $table->string('photo_back');
+            $table->string('photo1');
+            $table->string('photo2');
             $table->string('specialty');
+            $table->string('portfolio_content');
             $table->timestamps();
         });
     }

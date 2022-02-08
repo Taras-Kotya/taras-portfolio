@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contacts;
+use App\Models\Portfolio;
+use App\Models\Site;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;
@@ -15,17 +18,30 @@ class Controller extends BaseController
 
     public function index()
     {
-        return view('index');
+        $site = Site::orderBy('id', 'desc')
+        ->first();
+        
+        return view('index', compact('site'));
     }
+
+
 
     public function about()
     {
-        return view('about');
+        $contacts = Contacts::orderBy('id', 'desc')
+        ->first();
+        return view('about', compact('contacts'));
     }
 
+
+
+
     public function portfolio()
-    {
-        return view('portfolio');
+    {  
+        $site = Site::orderBy('id', 'desc')
+        ->first();
+        $portfolios = Portfolio::all();
+        return view('portfolio', compact('site','portfolios'));
     }
 
 }

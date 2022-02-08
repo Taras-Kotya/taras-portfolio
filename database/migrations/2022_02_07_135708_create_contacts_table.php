@@ -15,6 +15,8 @@ class CreateContactsTable extends Migration
     {
         Schema::create('contacts', function (Blueprint $table) {
             $table->id();
+            $table->string('welcome');
+            $table->string('welcome_content');
             $table->string('name');
             $table->string('birthday');
             $table->string('specialty');
@@ -29,10 +31,12 @@ class CreateContactsTable extends Migration
             $table->string('soc_facebook');
             $table->string('soc_youtube');
             $table->string('soc_telegram');
-            $table->string('age');
-            $table->string('year_in_special');
-            $table->string('clients_in_special');
-            $table->string('project_in_special');
+            $table->integer('age');
+            $table->integer('year_in_special');
+            $table->integer('clients_in_special');
+            $table->integer('project_in_special');
+            $table->string('button_url');
+            $table->string('button_name');
             $table->timestamps();
         });
     }

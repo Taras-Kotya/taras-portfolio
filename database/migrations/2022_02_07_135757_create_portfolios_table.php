@@ -20,6 +20,8 @@ class CreatePortfoliosTable extends Migration
             $table->string('url');
             $table->text('content');
             $table->string('image')->default('');
+            $table->string('button_url')->default('#');
+            $table->string('button_name')->default('');
             $table->timestamps();
         });
     }

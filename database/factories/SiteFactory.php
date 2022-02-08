@@ -14,7 +14,10 @@ class SiteFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'title' => 'Portfolio',
+            'title_user' => 'Taras Shpytko',
+            'welcome_content' => 'Радий тебе бачити на на моїй сторінці. Тут ми можемо з тобою познайомитися, ти побачиш мої роботи, та зможеш знайти мої контакти',
+            'specialty' => 'PHP Розробник'
         ];
     }
 }

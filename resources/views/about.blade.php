@@ -4,37 +4,38 @@
 
 <section class="u-align-center u-clearfix u-white u-section-6" id="carousel_5b8e">
     <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-sheet-1">
-        <h1 class="u-custom-font u-font-raleway u-text u-text-default u-text-palette-2-base u-text-1">Привіт!</h1>
-        <p class="u-large-text u-text u-text-variant u-text-2">Я - PHP розробник, і ось трохи детальніше про мене</p>
+        <h1 class="u-custom-font u-font-raleway u-text u-text-default u-text-palette-2-base u-text-1">{{ $contacts->welcome }}</h1>
+        <p class="u-large-text u-text u-text-variant u-text-2">{{ $contacts->welcome_content }}</p>
         <div class="u-align-left u-container-style u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-group u-palette-2-base u-radius-20 u-shape-round u-group-1">
             <div class="u-container-layout u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-container-layout-1">
                 <h6 class="u-custom-font u-font-open-sans u-text u-text-default u-text-3">Ім'я</h6>
-                <p class="u-custom-font u-text u-text-4">Тарас Шпитко</p>
+                <p class="u-custom-font u-text u-text-4">{{ $contacts->name }}</p>
                 <h6 class="u-custom-font u-font-open-sans u-text u-text-default u-text-5">День Народження</h6>
-                <p class="u-custom-font u-text u-text-6">04. 01. 1998</p>
+                <p class="u-custom-font u-text u-text-6">{{ $contacts->birthday }}</p>
                 <h6 class="u-custom-font u-font-open-sans u-text u-text-default u-text-7">Спеціальність</h6>
-                <p class="u-custom-font u-text u-text-8">PHP Developer</p>
+                <p class="u-custom-font u-text u-text-8">{{ $contacts->specialty }}</p>
                 <h6 class="u-custom-font u-font-open-sans u-text u-text-default u-text-9">Email</h6>
                 <a href="mailto:taras.victorovich.96@example.com" style="color: #fff" class="u-border-1 u-border-active-palette-2-base u-border-hover-palette-2-base u-btn u-button-style u-none u-text-active-palette-2-base u-text-body-alt-color u-text-hover-palette-2-base u-btn-1">
-                    taras.victorovich.96@example
+                {{ $contacts->email }}@example
                     <span style="font-weight: 700;">
                         <span style="font-weight: 400;"></span>
                     </span>.com
                 </a>
                 <h6 class="u-custom-font u-font-open-sans u-text u-text-10">Телефон</h6>
-                <a href="tel:+987987654321" class="u-border-1 u-border-active-palette-2-base u-border-hover-palette-2-base u-btn u-button-style u-none u-text-active-palette-2-base u-text-body-alt-color u-text-hover-palette-2-base u-btn-2">+38-(099)92-**-337</a>
+                <a href="tel:+987987654321" class="u-border-1 u-border-active-palette-2-base u-border-hover-palette-2-base u-btn u-button-style u-none u-text-active-palette-2-base u-text-body-alt-color u-text-hover-palette-2-base u-btn-2">{{ $contacts->number }}</a>
                 <h6 class="u-custom-font u-font-open-sans u-text u-text-default u-text-11">Веб-сайт</h6>
-                <a href="#" class="u-border-1 u-border-active-palette-2-base u-border-hover-palette-2-base u-btn u-button-style u-none u-text-active-palette-2-base u-text-body-alt-color u-text-hover-palette-2-base u-btn-3">botsu.su</a>
+                <a href="#" class="u-border-1 u-border-active-palette-2-base u-border-hover-palette-2-base u-btn u-button-style u-none u-text-active-palette-2-base u-text-body-alt-color u-text-hover-palette-2-base u-btn-3">{{ $contacts->site }}</a>
                 <h6 class="u-custom-font u-font-open-sans u-text u-text-12">Місто</h6>
-                <p class="u-custom-font u-text u-text-13">Херсон, Україна</p>
+                <p class="u-custom-font u-text u-text-13">{{ $contacts->city }}</p>
                 <h6 class="u-custom-font u-font-open-sans u-text u-text-default u-text-14">Віра</h6>
-                <p class="u-custom-font u-text u-text-15">Християнська</p>
+                <p class="u-custom-font u-text u-text-15">{{ $contacts->believer }}</p>
                 <h6 class="u-custom-font u-font-open-sans u-text u-text-default u-text-16">Хоббі</h6>
-                <p class="u-custom-font u-text u-text-15">Гітара, Спорт, Програмування, Мото</p>
+                <p class="u-custom-font u-text u-text-15">{{ $contacts->hobby }}</p>
                 <h6 class="u-custom-font u-font-open-sans u-text u-text-default u-text-18">Social</h6>
 
                 <div class="u-social-icons u-spacing-10 u-social-icons-1">
-                    <a class="u-social-url" title="facebook" target="_" href="#facebook">
+
+                    <a class="u-social-url" title="facebook" href="{{ $contacts->soc_facebook }}">
                         <span class="u-icon u-icon-circle u-social-facebook u-social-icon u-text-white">
                             <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
                                 <use xlink:href="#svg-4113"></use>
@@ -48,7 +49,7 @@ c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z">
                     </a>
 
 
-                    <a class="u-social-url" title="twitter" href="#twitter">
+                    <a class="u-social-url" title="twitter" href="{{ $contacts->soc_twitter }}">
                         <span class="u-icon u-icon-circle u-social-icon u-social-twitter u-text-white">
                             <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
                                 <use xlink:href="#svg-3c2e"></use>
@@ -62,7 +63,7 @@ c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z">
                     </a>
 
 
-                    <a class="u-social-url" title="instagram" target="_blank" href="https://instagram.com/taras_shpytko">
+                    <a class="u-social-url" title="instagram" target="_blank" href="{{ $contacts->soc_instagram }}">
                         <span class="u-icon u-icon-circle u-social-icon u-social-instagram u-text-white">
                             <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112">
                                 <use xlink:href="#svg-a922"></use>
@@ -76,7 +77,7 @@ c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z">
                             </svg></span>
                     </a>
 
-                    <a class="u-social-url" data-type="Custom" title="Custom" href="#youtube">
+                    <a class="u-social-url" data-type="Custom" title="Custom" href="{{ $contacts->soc_youtube }}">
                         <span class="u-icon u-icon-circle u-social-custom u-social-icon u-text-white u-icon-4">
                             <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512">
                                 <use xlink:href="#svg-a7cd"></use>
@@ -98,31 +99,31 @@ c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z">
                 <div class="u-align-left u-container-style u-list-item u-repeater-item u-shape-rectangle">
                     <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-2">
                         <p class="u-text u-text-default u-text-palette-1-dark-2 u-text-18">Вік</p>
-                        <h3 class="u-custom-font u-font-montserrat u-text u-text-default u-text-palette-2-base u-text-19" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">24</h3>
+                        <h3 class="u-custom-font u-font-montserrat u-text u-text-default u-text-palette-2-base u-text-19" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">{{ $contacts->age }}</h3>
                     </div>
                 </div>
                 <div class="u-align-left u-container-style u-list-item u-repeater-item u-shape-rectangle">
                     <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-3">
                         <p class="u-text u-text-default u-text-palette-1-dark-2 u-text-20">Років у сфері</p>
-                        <h3 class="u-custom-font u-font-montserrat u-text u-text-default u-text-palette-2-base u-text-21" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">8+</h3>
+                        <h3 class="u-custom-font u-font-montserrat u-text u-text-default u-text-palette-2-base u-text-21" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">{{ $contacts->year_in_special }}+</h3>
                     </div>
                 </div>
                 <div class="u-align-left u-container-style u-list-item u-repeater-item u-shape-rectangle">
                     <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-4">
                         <p class="u-text u-text-default u-text-palette-1-dark-2 u-text-22">Клієнтів</p>
-                        <h3 class="u-custom-font u-font-montserrat u-text u-text-default u-text-palette-2-base u-text-23" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">10+</h3>
+                        <h3 class="u-custom-font u-font-montserrat u-text u-text-default u-text-palette-2-base u-text-23" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">{{ $contacts->clients_in_special }}+</h3>
                     </div>
                 </div>
                 <div class="u-align-left u-container-style u-list-item u-repeater-item u-shape-rectangle">
                     <div class="u-container-layout u-similar-container u-valign-middle u-container-layout-5">
                         <p class="u-text u-text-default u-text-palette-1-dark-2 u-text-24">Особистих проектів</p>
-                        <h3 class="u-custom-font u-font-montserrat u-text u-text-default u-text-palette-2-base u-text-25" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">3</h3>
+                        <h3 class="u-custom-font u-font-montserrat u-text u-text-default u-text-palette-2-base u-text-25" data-animation-name="counter" data-animation-event="scroll" data-animation-duration="3000">{{ $contacts->project_in_special }}</h3>
                     </div>
                 </div>
             </div>
         </div>
-            <a href="mailto:taras.victorovich.96@example.com" class="u-active-palette-2-light-1 u-border-none u-btn u-btn-round u-button-style u-hover-palette-2-light-1 u-palette-2-base u-radius-8 u-text-active-white u-text-body-alt-color u-text-hover-white u-btn-5">
-                Написати на Gmail.Com &nbsp;&nbsp;
+            <a href="{{ $contacts->button_url }}" class="u-active-palette-2-light-1 u-border-none u-btn u-btn-round u-button-style u-hover-palette-2-light-1 u-palette-2-base u-radius-8 u-text-active-white u-text-body-alt-color u-text-hover-white u-btn-5">
+            {{ $contacts->button_name }}
             </a>
     </div>
 </section>
