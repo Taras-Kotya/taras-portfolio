@@ -1,7 +1,7 @@
 <body class="u-body u-xxl-mode">
     <header class="u-clearfix u-grey-90 u-header u-header" id="sec-ab9d">
         <div class="u-clearfix u-sheet u-sheet-1">
-            <a href="https://nicepage.com" class="u-align-left-xs u-image u-logo u-image-1" data-image-width="152" data-image-height="134">
+            <a href="/" class="u-align-left-xs u-image u-logo u-image-1" data-image-width="152" data-image-height="134">
                 <img src="/images/Untitled-2.png" class="u-logo-image u-logo-image-1">
             </a>
             <nav class="u-align-left-lg u-align-left-md u-align-left-sm u-align-left-xl u-align-left-xxl u-align-right-xs u-menu u-menu-dropdown u-nav-spacing-25 u-offcanvas u-menu-1" data-responsive-from="MD">
