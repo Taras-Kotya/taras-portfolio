@@ -13,11 +13,12 @@
 
     @if(!Session::has('is_auth'))
     <h1>Авторизация</h1>
-    <form method="POST" action="/admin/login">
+    {{ Form::open(array('url' => '/admin/login', 'method' => 'POST')) }}
         @csrf
+        @method('POST')
         <p>
             Name:
-            <input type="text" name="login" value="" />
+            <input type="text" name="login" value="admin" />
         </p>
         <p>
             Password:
