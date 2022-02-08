@@ -38,7 +38,7 @@
                     <ul class="u-custom-font u-font-raleway u-nav u-spacing-20 u-unstyled u-nav-1">
                         <li class="u-nav-item"><a class="u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-nav-link u-text-active-custom-color-2 u-text-hover-palette-2-base u-text-white" href="/" style="padding: 10px;">Головна</a>
                         </li>
-                        <li class="u-nav-item"><a class="u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-nav-link u-text-active-custom-color-2 u-text-hover-palette-2-base u-text-white" href="/about" style="padding: 10px;">Контакти та данні</a>
+                        <li class="u-nav-item"><a class="u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-nav-link u-text-active-custom-color-2 u-text-hover-palette-2-base u-text-white" href="/about" style="padding: 10px;">Контакти | Анкета</a>
                         </li>
                         <li class="u-nav-item"><a class="u-border-active-palette-1-base u-border-hover-palette-1-base u-button-style u-nav-link u-text-active-custom-color-2 u-text-hover-palette-2-base u-text-white" href="/portfolio" style="padding: 10px;">Портфоліо</a>
                         </li>
@@ -51,7 +51,7 @@
                             <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2">
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/" style="padding: 10px;">Головна</a>
                                 </li>
-                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/about" style="padding: 10px;">Контакти та данні</a>
+                                <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/about" style="padding: 10px;">Контакти | Анкета</a>
                                 </li>
                                 <li class="u-nav-item"><a class="u-button-style u-nav-link" href="/portfolio" style="padding: 10px;">Портфоліо</a>
                                 </li>
